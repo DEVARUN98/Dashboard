@@ -1,38 +1,65 @@
-.App {
+body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.sidebar{
+  height: 100%;
+  background-color: #20263a;
+}
+.list_items{
+  margin-top: 50px;
+}
+.sidebar a:hover{
+  background-color: white;
+  color: black !important;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.mainpage{
+  height: 100vh;
+  background-color: #e8edff;
+}
+
+.box_shadow{
+  box-shadow: 1px 1px 5px black;
+  border-radius: 5px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbarr{
+  visibility: hidden;
+}
+.graph{
+  height: 300px;
+}
+.profile{
+  border-radius: 10px;
+  padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.logout{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+  .sidebar{
+    height: 290px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .brand{
+    height: 110px;
+    width: 100px;
   }
-  to {
-    transform: rotate(360deg);
+  .list_items{
+    height: 70%;
+    width: 70%;
   }
+
+  .box_shadow{
+    margin-bottom: 10px;
+  }
+
 }
