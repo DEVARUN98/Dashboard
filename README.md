@@ -1,3 +1,17 @@
+
+I have added npm i bootstrap-icons
+
+Used React bootstrap
+
+npm i react-bootstrap
+
+Used bootstrap npm i bootstrap
+
+used chart.js for charts npm i chart.js
+
+I was running the server from folder dashboard using 'npm start'
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
